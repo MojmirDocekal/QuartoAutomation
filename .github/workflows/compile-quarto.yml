@@ -36,14 +36,28 @@ jobs:
       # Compile the Quarto document
       - name: Render Quarto document
         run: |
-          quarto render presentation.qmd --to revealjs
+          mapfile -t qmd_files < <(find . -maxdepth 1 -type f -name "*.qmd" -printf "%f\n" | sort)
+
+          if [ "${#qmd_files[@]}" -ne 1 ]; then
+            echo "::error::Expected exactly one .qmd file in repo root, found ${#qmd_files[@]}: ${qmd_files[*]:-(none)}"
+            exit 1
+          fi
+
+          qmd_file="${qmd_files[0]}"
+          base_name="${qmd_file%.qmd}"
+
+          echo "QMD_FILE=$qmd_file" >> "$GITHUB_ENV"
+          echo "HTML_OUTPUT=${base_name}.html" >> "$GITHUB_ENV"
+          echo "HTML_ASSET_DIR=${base_name}_files" >> "$GITHUB_ENV"
+
+          quarto render "$qmd_file" --to revealjs
 
       # Upload the compiled output
       - name: Upload HTML artifact
         uses: actions/upload-artifact@v4
         with:
-          name: compiled-presentation
+          name: compiled-quarto-document
           path: |
-            presentation.html
-            presentation_files/
+            *.html
+            *_files/
           retention-days: 90

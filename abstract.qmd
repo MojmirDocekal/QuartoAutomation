@@ -2,10 +2,10 @@
 title: "NPI Licensing Beyond Downward Entailment"
 subtitle: "Conference abstract"
 author:
-  - name: "Mojmír Dočekal"
-    affiliation: "Masaryk University"
-  - name: "Rhiana Horovská"
-    affiliation: "Masaryk University"
+  - name: "Author One"
+    affiliation: "Miskatonic University"
+  - name: "Author Two"
+    affiliation: "Miskatonic University"
 date: ""
 format:
   pdf:
