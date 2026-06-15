@@ -28,6 +28,10 @@ jobs:
       # Install Quarto CLI
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tinytex: true
 
       # Install Pandoc (Quarto bundles its own, but this ensures latest)
       - name: Setup Pandoc
