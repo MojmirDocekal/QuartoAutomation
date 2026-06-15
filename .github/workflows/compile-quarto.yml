@@ -47,17 +47,15 @@ jobs:
           base_name="${qmd_file%.qmd}"
 
           echo "QMD_FILE=$qmd_file" >> "$GITHUB_ENV"
-          echo "HTML_OUTPUT=${base_name}.html" >> "$GITHUB_ENV"
-          echo "HTML_ASSET_DIR=${base_name}_files" >> "$GITHUB_ENV"
+          echo "PDF_OUTPUT=${base_name}.pdf" >> "$GITHUB_ENV"
 
-          quarto render "$qmd_file" --to revealjs
+          quarto render "$qmd_file" --to pdf
 
       # Upload the compiled output
-      - name: Upload HTML artifact
+      - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
           name: compiled-quarto-document
           path: |
-            *.html
-            *_files/
+            *.pdf
           retention-days: 90
