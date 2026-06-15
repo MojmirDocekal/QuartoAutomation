@@ -1,0 +1,78 @@
+---
+title: "NPI Licensing Beyond Downward Entailment"
+subtitle: "Conference abstract"
+author:
+  - name: "Mojmír Dočekal"
+    affiliation: "Masaryk University"
+  - name: "Rhiana Horovská"
+    affiliation: "Masaryk University"
+date: ""
+format:
+  pdf:
+    pdf-engine: lualatex
+    documentclass: article
+    papersize: a4
+    fontsize: 11pt
+    geometry:
+      - top=20mm
+      - bottom=22mm
+      - left=22mm
+      - right=22mm
+    colorlinks: true
+    linkcolor: "MidnightBlue"
+    urlcolor: "MidnightBlue"
+    citecolor: "MidnightBlue"
+    keep-tex: true
+header-includes:
+  - |
+    \usepackage{fontspec}
+    \setmainfont{TeX Gyre Pagella}
+    \setsansfont{TeX Gyre Heros}
+    \setmonofont{TeX Gyre Cursor}
+  - |
+    \usepackage{microtype}
+  - |
+    \usepackage{linguex}
+  - |
+    \usepackage{titlesec}
+  - |
+    \usepackage{enumitem}
+  - |
+    \usepackage{xcolor}
+    \definecolor{Accent}{HTML}{183A5A}
+    \titleformat{\section}{\large\bfseries\color{Accent}}{}{0pt}{}
+    \titleformat{\subsection}{\normalsize\bfseries\color{Accent}}{}{0pt}{}
+    \setlist[itemize]{leftmargin=*, itemsep=0.25em, topsep=0.25em}
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{0.6em}
+abstract: |
+  This abstract argues that negative polarity item (NPI) licensing cannot be reduced to downward entailment alone. Using Czech data with \emph{většina} 'most', we show that NPIs can be acceptable in a genuinely non-monotonic environment, which is difficult to reconcile with classical Ladusaw-style accounts. The result supports a scope-based analysis on which NPIs mark narrow scope relative to their licensor rather than a specific monotonicity profile.
+keywords:
+  - negative polarity items
+  - Czech
+  - scope
+  - monotonicity
+  - linguistics abstract
+---
+
+## Abstract
+
+Negative polarity items have traditionally been analyzed as requiring downward-entailing licensing environments. The present study re-examines that assumption with Czech data centered on the proportional quantifier \emph{většina} 'most'. Since \emph{most} is genuinely non-monotonic, it provides a sharper test than standard downward-entailing versus upward-entailing contrasts.
+
+We combined an acceptability task with an inference task. Speakers found NPIs more acceptable with \emph{all} than with \emph{some}, but importantly, \emph{most} patterned in between rather than collapsing with \emph{some}. In the inference task, \emph{most} did not show a stable monotonicity profile, yet it still licensed the NPI in a way that was distinct from both classical downward-entailing and upward-entailing environments. This dissociation suggests that licensing is not exhausted by logical monotonicity.
+
+The analysis is naturally captured by a scope-marking approach. In this view, the NPI signals narrow scope relative to its licensor, which allows licensing in environments that are not downward-entailing. A conference version of the paper can present the Czech examples in the standard linguex format.
+
+The main contribution is empirical: the data identify a genuinely non-monotonic licensor that still interacts with NPIs. The theoretical payoff is that the licensing condition looks closer to scope than to downward entailment. More broadly, the findings support a grammar in which polarity sensitivity is domain-sensitive and mediated by structural scope relations rather than a single monotonicity check.
+
+## References
+
+Barwise, J. and R. Cooper. 1981. Generalized quantifiers and natural language. _Linguistics and Philosophy_ 4(2): 159-219.
+
+Barker, C. 2018. Negative polarity as scope marking. _Linguistics and Philosophy_ 41(5): 483-510.
+
+Homer, V. 2021. Domains of polarity items. _Journal of Semantics_ 38(1): 1-48.
+
+Ladusaw, W. A. 1979. _Polarity Sensitivity as Inherent Scope Relations_. PhD dissertation, University of Texas.
+
+Szabolcsi, A., L. Bott, and B. McElree. 2008. The effect of negative polarity items on inference verification. _Journal of Semantics_ 25(4): 411-450.
