@@ -43,7 +43,7 @@ format:
 
 - **Szabolcsi et al. (2008):** No correlation between DI and NPI licensing
 - **Chemla et al. (2011), Denić et al. (2021):** Suggested relationship based on judgments
-- **Barker (2018):** Alternative proposal 
+- **Barker (2018):** Alternative proposal
   - NPIs signal **narrow scope**, not monotonicity
 
 ## Alternative Hypothesis
@@ -58,12 +58,12 @@ format:
 
 :::: {.columns}
 ::: {.column width="70%"}
-**Proportional Quantifier:** 
+**Proportional Quantifier:**
 
 $$[[\text{vetšina} ]](A)(B) = 1 \text{ iff } |A \cap B| > |A \setminus B|$$
 
 - NOT downward-entailing
-- NOT upward-entailing  
+- NOT upward-entailing
 - **Genuinely non-monotonic**
 
 :::
@@ -110,12 +110,12 @@ If YES: This supports Barker's scope view, not Ladusaw's monotonicity view!
 :::{.fragment}
 
    ```
-   Všichni / Většina / Některí občané se sebemenší vírou v Boha 
+   Všichni / Většina / Některí občané se sebemenší vírou v Boha
    chtěli nalezenému dítěti vystrojit křest.
    ```
 
    **Translation:**
-   > "All / Most / Some of the citizens with even the least faith in God 
+   > "All / Most / Some of the citizens with even the least faith in God
    > wanted to arrange a christening for the found child."
 
 :::
@@ -202,7 +202,7 @@ Question: Does A entail B? (Yes/No)
 
 - **all** robustly endorses DE inferences: β = -8.51, **BF₁₀ = 9.20×10⁵** ✓
   - Rejects UE, accepts DE
-- **some** robustly endorses UE inferences: β = 7.09, **BF₁₀ = 3.50×10⁸** ✓  
+- **some** robustly endorses UE inferences: β = 7.09, **BF₁₀ = 3.50×10⁸** ✓
   - Accepts UE, rejects DE
 - **most** shows NO clear pattern: β = -1.30, **BF₀₁ = 1.06** ✓
   - DE: 6.8%, UE: 2.3% (both near floor!)
@@ -271,7 +271,7 @@ $$\text{vetšina}_x((\exists d \, F(x,d)) \rightarrow P(x))$$
 The monotonicity landscape:
 
 - **all (DE):** Maximum downward reasoning → highest acceptability
-- **most (NM):** No monotonic pattern → intermediate acceptability  
+- **most (NM):** No monotonic pattern → intermediate acceptability
 - **some (UE):** Maximum upward reasoning → lowest acceptability
 
 This gradient is incompatible with synchronic DE requirement but aligns perfectly with scope theory!
