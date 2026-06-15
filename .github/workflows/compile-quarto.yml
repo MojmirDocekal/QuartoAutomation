@@ -27,9 +27,7 @@ jobs:
 
       # Install Quarto CLI
       - name: Setup Quarto
-        uses: quoartz/setup-quarto@v1
-        with:
-          quarto-version: "latest"
+        uses: quarto-dev/quarto-actions/setup@v2
 
       # Install Pandoc (Quarto bundles its own, but this ensures latest)
       - name: Setup Pandoc
