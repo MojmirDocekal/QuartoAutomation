@@ -57,7 +57,7 @@ keywords:
 
 ## Abstract
 
-abc
+abcdef
 
 Negative polarity items have traditionally been analyzed as requiring downward-entailing licensing environments. The present study re-examines that assumption with Czech data centered on the proportional quantifier \emph{většina} 'most'. Since \emph{most} is genuinely non-monotonic, it provides a sharper test than standard downward-entailing versus upward-entailing contrasts.
 
