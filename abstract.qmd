@@ -57,6 +57,8 @@ keywords:
 
 ## Abstract
 
+abc
+
 Negative polarity items have traditionally been analyzed as requiring downward-entailing licensing environments. The present study re-examines that assumption with Czech data centered on the proportional quantifier \emph{většina} 'most'. Since \emph{most} is genuinely non-monotonic, it provides a sharper test than standard downward-entailing versus upward-entailing contrasts.
 
 We combined an acceptability task with an inference task. Speakers found NPIs more acceptable with \emph{all} than with \emph{some}, but importantly, \emph{most} patterned in between rather than collapsing with \emph{some}. In the inference task, \emph{most} did not show a stable monotonicity profile, yet it still licensed the NPI in a way that was distinct from both classical downward-entailing and upward-entailing environments. This dissociation suggests that licensing is not exhausted by logical monotonicity.
