@@ -16,7 +16,7 @@ format:
 
 ## Background
 
-### The Classic Problem with NPIs
+### The Classic Problem with NPIs 
 
 - **Negative Polarity Items (NPIs)** traditionally analyzed as markers of downward entailment (DI)
 - NPIs like "even the least" (*sebemenší*)
